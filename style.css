@@ -38,7 +38,7 @@ body {
     letter-spacing: 3px;
 }
 
-.clock .box.seconds{
+.clock .box.seconds {
     background-color: #5713AD;
 }
 
@@ -49,4 +49,21 @@ body {
 
 .clock span.time {
     font-size: 14px;
+}
+
+@media screen and (max-width: 500px) {
+    .clock .box {
+        height: 100px;
+        width: 95px;
+    }
+
+    .clock span {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .clock span.time {
+        font-size: 12px;
+    }
+
 }

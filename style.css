@@ -55,6 +55,7 @@ body {
     .clock .box {
         height: 100px;
         width: 95px;
+        margin-top: -15%;
     }
 
     .clock span {
